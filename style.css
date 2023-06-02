@@ -86,7 +86,7 @@
 
 /* ------- Media Quarry For Phone Size -----------*/
 
-@media (max-width: 650px){
+@media screen and (max-width: 650px){
 
     .container{
         background: linear-gradient(to bottom, #34e89e, #0f3443);
