@@ -86,7 +86,7 @@
 
 /* ------- Media Quarry For Phone Size -----------*/
 
-@media (max-width: 250px){
+@media (max-width: 650px){
 
     .container{
         background: linear-gradient(to bottom, #34e89e, #0f3443);
@@ -94,7 +94,7 @@
     }
     .calculator{
         width: 100%;
-        max-width: 200px;
+        max-width: 300px;
         margin-left: 0;
         margin-top: 40%;
         left: 50%;
@@ -103,34 +103,34 @@
     }
 
     .calculator h1{
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .input_box{
         display: block;
         margin: 25px 0;
-        padding: 20px 15px;
+        padding: 25px 20px;
     }
 
     .input_box input{
         width: 100%;
         margin-right: 15px;
-        padding: 8px 12px;
-        font-size: 13px;
+        padding: 10px 15px;
+        font-size: 14px;
     }
 
     .input_box input::-webkit-calendar-picker-indicator{
-        background-size: 16px;
+        background-size: 18px;
     }
     .input_box button{
         width: 100%;
         margin-top: 15px;
-        font-size: 13px;
-        padding: 6px 8px;
+        font-size: 14px;
+        padding: 8px 12px;
     }
     
     #result{
         margin-top: -10px;
-        font-size: 13px;
+        font-size: 14px;
     }
 }
